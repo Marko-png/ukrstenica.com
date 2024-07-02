@@ -1,0 +1,57 @@
+*{box-sizing: border-box;}
+
+.red{margin-left:-5px;
+     margin-right:-5px;}
+    
+.kolona{float: left;}
+  
+.red::after{content: "";
+            clear: both;
+            display: table;}
+  
+table{border-collapse: collapse;
+      border-spacing: 0;
+      width: 100%;
+      border: 1px solid black;}
+  
+th, td{text-align: center;
+       padding: 5.4px;
+       border: 1px solid black;
+       font-size: 10px;
+       font-weight: lighter;
+       height: 65px;
+       width: 80px;}
+
+textarea{padding: 0;
+         border: hidden;
+         height: 63px;
+         width: 60px;
+         font-size: 50px;}
+
+.prazno{background-color: black;}
+
+.isprekidano{border-right: dotted;}
+
+img{height: 230px;
+    width: 413px;
+    margin-bottom: -1px;}
+
+.slika{border-collapse: collapse;
+       border-spacing: 0;
+       padding: 0;
+       border: none;}
+
+.tabela_3{border-top: hidden;
+          margin-bottom: -2px;
+          margin-left: -2px;
+          width: 414px;}
+
+.ispravi{height: 76px;}
+
+.tabela_4{float: left;
+          margin-left: -1px;
+          margin-top: -1px;
+          width: 414px;}
+
+.tabela_2{margin-left: -1px;
+          width: 414px;}
